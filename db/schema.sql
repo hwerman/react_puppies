@@ -11,6 +11,7 @@ CREATE TABLE puppies (
 );
 
 COPY puppies (name, url)
-FROM '/Users/admin/code/wdi/labs/react_puppies/db/puppies.csv' with (format csv, delimiter ',');
+FROM '/Users/hadaswerman/code/wdi/labs/reactPuppiesReact/PuppiesAppWithReact
+/db/puppies.csv' with (format csv, delimiter ',');
 
 COMMIT;

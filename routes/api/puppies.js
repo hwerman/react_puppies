@@ -10,7 +10,7 @@ router.get('/', getAllPuppies, (req, res) => {
 });
 
 // Implement POST to adopt a puppy
-router.post('/', adoptPuppy, (req, res) => {
+router.post('/', (req, res) => {
   res.json({ message: 'successfully posted puppy' });
 });
 
